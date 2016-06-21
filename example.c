@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <stdint.h>
 #include <string.h>
-#include "murmur3.h"
+#include "murmur3.hpp"
 
 int main(int argc, char **argv) {
   uint32_t hash[4];                /* Output for the hash */
